@@ -1,0 +1,47 @@
+[{
+  "id": 1,
+  "name": "Central Computer Centre",
+  "description": "Central Computer Centre",
+  "url": "https://iris.nitk.ac.in/infrastructure/locations.json"
+},{
+  "id": 2,
+  "name": "Centre for System Design",
+  "description": "Central Computer Centre",
+  "url": "https://iris.nitk.ac.in/infrastructure/locations.json"
+},{
+  "id": 3,
+  "name": "Career Development Centre",
+  "description": "Central Computer Centre",
+  "url": "https://iris.nitk.ac.in/infrastructure/locations.json"
+},{
+  "id": 4,
+  "name": "Main Building",
+  "description": "Central Computer Centre",
+  "url": "https://iris.nitk.ac.in/infrastructure/locations.json"
+},{
+  "id": 4,
+  "name": "LHC - A (ATB)",
+  "description": "Central Computer Centre",
+  "url": "https://iris.nitk.ac.in/infrastructure/locations.json"
+},{
+  "id": 5,
+  "name": "LHC - B (NTB)",
+  "description": "Central Computer Centre",
+  "url": "https://iris.nitk.ac.in/infrastructure/locations.json"
+},{
+  "id": 6,
+  "name": "LHC - C",
+  "description": "Central Computer Centre",
+  "url": "https://iris.nitk.ac.in/infrastructure/locations.json"
+},{
+  "id": 7,
+  "name": "Student's Activity Center",
+  "description": "Central Computer Centre",
+  "url": "https://iris.nitk.ac.in/infrastructure/locations.json"
+},{
+  "id": 8,
+  "name": "Silver Jubilee Auditorium",
+  "description": "Central Computer Centre",
+  "url": "https://iris.nitk.ac.in/infrastructure/locations.json"
+}
+]

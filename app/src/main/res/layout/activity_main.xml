@@ -7,12 +7,15 @@
     <data>
 
     </data>
-
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-        <include layout="@layout/list_locations" />
+        <ListView android:id="@+id/locationListView"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            tools:listitem="@layout/location_list_item"/>
+
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>

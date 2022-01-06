@@ -1,0 +1,210 @@
+[
+  {
+    "imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 1,
+    "name": "Main Building",
+    "description": "The house of all administrative activities within campus.",
+    "latitude": 13.010747,
+    "longitude": 74.794433
+
+  },
+  {
+    "imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 2,
+    "name": "NITK Sports Complex (new)",
+    "description": "A new and modern sports complex.",
+    "latitude": 13.010066,
+    "longitude": 74.798171
+
+  },
+  {
+    "imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 3,
+    "name": "NITK Light House Beach",
+    "description": "NITK Beach ",
+    "latitude": 13.0060100526827,
+    "longitude": 74.7897335296539
+  },
+  {
+    "imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 4,
+    "name": "Canara Bank",
+    "description": "Nitk Canara Bank branch ",
+    "latitude": 13.008664155482,
+    "longitude": 74.7941548862169
+  },
+  {
+    "imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 5,
+    "name": "State Bank of India",
+    "description": "NITK sbi branch",
+    "latitude": 13.0089443554604,
+    "longitude": 74.7941300252783
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 6,
+    "name": "Hostel Office",
+    "description": "hostel office",
+    "latitude": 13.0082773766597,
+    "longitude": 74.7962128983909
+
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 7,
+    "name": "Central Library",
+    "description": "library of nitk campus",
+    "latitude": 13.0100892791689,
+    "longitude": 74.7950525321842
+
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 8,
+    "name": "Cricket and football ground",
+    "latitude": 13.0099733579106,
+    "longitude": 74.7976289907102
+
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 9,
+    "name": "BasketBall court",
+    "latitude": 13.0110291527269,
+    "longitude": 74.7970818200648
+
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 10,
+    "name": "Swimming Pool",
+    "latitude": 13.0112068603223,
+    "longitude": 74.7977523723232
+
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 11,
+    "name": "Bus Stand",
+    "description": "Nitk Bus stand",
+    "latitude": 13.0117804105788,
+    "longitude": 74.793003687756
+
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 12,
+    "name": "Dept of IT",
+    "description": "Established in the year 2000, the Department of Information Technology is the youngest among the 14 departments at NITK Surathkal. Since then, it has grown to be a center for excellence, innovation and research with dedicated faculty & staff, highly motivated students, state-of-the-art facilities and an innovative teaching-learning environment.",
+    "latitude": 13.0111590303857,
+    "longitude": 74.7919630945162
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 13,
+    "name": "Dept of CSE",
+    "description": "The Department of Computer Science & Engineering was established in the year 1986. Since then, the department has held a position of pride in NITK. It has consistently fulfilled its role of producing Computer Engineers ready to meet the demands of the IT world. The department has always attracted the best of engineering aspirants from all over the country. It has a well qualified and experienced team of faculty.",
+    "latitude": 13.0132496988182,
+    "longitude": 74.7913730085458
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 14,
+    "name": "Dept of EEE",
+    "description": "The department has well-equipped state-of-the-art laboratories to augment the coursework and enhance the research potentials. The department has faculty who are not only dedicated in teaching learning process, but also are actively engaged in the research and development activities with externally sponsored projects from various funding agencies like DST, SERB, MNRE, CPRI, DELL, CDAC, Infineon, Texas Instruments, Schneider Electric, L&T, Robert Bosch, MeitY, to name a few",
+    "latitude": 13.0113354752006,
+    "longitude": 74.7923922479689
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 15,
+    "name": "Dept of ECE",
+    "description": "The Electronics and Communication (E&C) Engineering Department was established in the year 1979. The Department offers an Under Graduate program in Electronics and Communication Engineering, a PG program in VLSI design and a PG program in Communication Engineering",
+    "latitude": 13.0118403429436,
+    "longitude": 74.792208692693
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 16,
+    "name": "Dept of Mining Engineering",
+    "description": "The Department of Mining Engineering was established in the year 1984 and about 826 undergraduates passed out from the portals of the department till 2019-2020. Several girls obtained their B. Tech Mining Degree from this department. The Department also offers M.Tech (Research) programme in Rock Excavation Technology and Management and Ph.D in Mining Engineering. The department celebrated its Silver Jubilee during 2009-10",
+    "latitude": 13.0119344231433,
+    "longitude": 74.7940647812908
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 17,
+    "name": "SOM",
+    "description": "The School of Management (SOM) began its journey in the year 1989-90. Being interdisciplinary in its orientation, the school has expertise in three disciplines: Management, Economics, and Professional Communication. Till the academic year 2007-08, the School of Management has exclusively been a supporting institute with some core and some other elective courses offered to the B.Tech program students.",
+    "latitude": 13.0091329085342,
+    "longitude": 74.794601223106
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 18,
+    "name": "Dept of Chemical Engineering",
+    "description": "The Department of Chemical Engineering in National Institute of Technology Karnataka, Surathkal was started in the year 1965 with Professor M G Subba Rau as its Founder Head of the Department. With his practical and innovative mind Professor Rau laid a solid foundation to build a very good department to make competent professionals graduating from the institution.",
+    "latitude": 13.0112739623077,
+    "longitude": 74.7963704278544
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 19,
+    "name": "Information Security Research Lab",
+    "latitude": 13.0128675937114,
+    "longitude": 74.7912033336166
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 20,
+    "name": "Dept of Civil Engineering",
+    "description": "The Department offers one undergraduate, five post-graduate and also research programmes leading to bachelor, master and doctoral degrees. The Department has well experienced faculty, skilled technical staff and well equipped laboratories. It is a recognized QIP centre for training of faculty from other engineering colleges and polytechnics. The Department has been always in the forefront in taking up R&D initiatives and Industrial Consultancy assignments.",
+    "latitude": 13.0127790817432,
+    "longitude": 74.7940750294248
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 21,
+    "name": "Dept of MME",
+    "description": "The Department of Metallurgical and Materials Engineering, one of the oldest Departments at National Institute of Technology, was established in the year 1965 with an objective to impart education and training in Metallurgical & Materials Engineering. The Department owes a lot to the vision of its founder Head, Prof. T. Ramchandran. The Department is very active in research activities and keeps abreast with the state-of-the-art developments in Engineering and Technology.",
+    "latitude": 13.0104360768394,
+    "longitude": 74.7951343277686
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 22,
+    "name": "Dept of Physics and Chemistry",
+    "description": "Established in 1960 with the mission of imparting quality education in the field of Physics both at UG as well as PG level and it is also a research centre to pursue PhD degree. The department offers credit based courses in basic Physics to first year engineering (B.Tech.) students and electives at higher semesters.",
+    "latitude": 13.0092477034061,
+    "longitude": 74.795058803078
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 23,
+    "name": "NITK Beach",
+    "description": "NITK Beach is situated in Surathkal, the northern part of Mangalore city, Karnataka. This beach is also known as Surathkal beach. It is a private beach that was later named after the nearby NITK. A lighthouse constructed in the year 1972 is very near to this beach.",
+    "latitude": 13.0096791123289,
+    "longitude": 74.7886968107539
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 24,
+    "name": "NITK Beach Gate",
+    "latitude": 13.0143918429964,
+    "longitude": 74.7880248164858
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 25,
+    "name": "Centre of System Design",
+    "description": "Centre for System Design (A Centre of Excellence at NITK Surathkal) envisages an interdisciplinary approach and means for realization of successful engineering systems. Key components for this are system modeling & simulation, understanding system dynamics, system optimization, virtual and physical experimentation. The Centre aims at facilitating and providing required environment for all the key components of system design",
+    "latitude": 13.0115683290956,
+    "longitude": 74.7980360125348
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 26,
+    "name": "NITK Bus stand (There is a bus stand at 11 also)",
+    "latitude": 13.0120167713662,
+    "longitude": 74.7929665965796
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 27,
+    "name": "Central Research Facility",
+    "description": "CRF is setup with a budgetary support of Rs. 80 crores, towards Equipment. CRF has 100% Power back-up, centralized HVAC and Fiber optic connectivity. This is financed through HEFA loan. The total floor area being used is approximately 3,800 square metres.",
+    "latitude": 13.0094983996589,
+    "longitude": 74.7944685254152
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 28,
+    "name": "Nandini ",
+    "latitude": 13.0135959649111,
+    "longitude": 74.796131444408
+  },
+  {"imageLink": "https://thenitklife.weebly.com/uploads/3/0/5/6/30562859/2863786_orig.jpg",
+    "id": 29,
+    "name": "Fresh N Honest Coffee Shop",
+    "latitude": 13.0119263981967,
+    "longitude": 74.795105743048
+  }
+]

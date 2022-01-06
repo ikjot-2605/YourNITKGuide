@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         binding.locationListView.setOnItemClickListener { adapterView, view, position, id ->
             val location_name=locations.get(position).name
             val location_desc=locations.get(position).description
-            val imgurl=locations.get(position).imgurl
+            val imgurl=locations.get(position).imageLink
             val intent= Intent(this,LocationDesc::class.java)
             intent.putExtra("name",location_name)
             intent.putExtra("url",imgurl)

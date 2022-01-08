@@ -34,6 +34,7 @@ class LocationListFragment : Fragment() {
             val action = LocationListFragmentDirections.actionLocationListFragmentToLocationDescriptionFragment(location = element!!)
             findNavController().navigate(action)
         }
+
         return binding.root
     }
 }

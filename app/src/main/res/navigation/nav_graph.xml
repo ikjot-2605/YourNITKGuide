@@ -12,6 +12,9 @@
         <action
             android:id="@+id/action_locationListFragment_to_locationDescriptionFragment"
             app:destination="@id/locationDescriptionFragment" />
+        <action
+            android:id="@+id/action_locationListFragment_to_newLocationFragment"
+            app:destination="@id/newLocationFragment" />
     </fragment>
     <fragment
         android:id="@+id/locationDescriptionFragment"
@@ -23,6 +26,15 @@
             app:argType="com.example.yournitkguide.Location" />
         <action
             android:id="@+id/action_locationDescriptionFragment_to_locationListFragment"
+            app:destination="@id/locationListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newLocationFragment"
+        android:name="com.example.yournitkguide.NewLocationFragment"
+        android:label="NewLocationFragment"
+        tools:layout="@layout/new_location_fragment">
+        <action
+            android:id="@+id/action_newLocationFragment_to_locationListFragment"
             app:destination="@id/locationListFragment" />
     </fragment>
 </navigation>

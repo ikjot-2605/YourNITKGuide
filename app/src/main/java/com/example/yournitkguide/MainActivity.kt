@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
+import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.yournitkguide.databinding.ActivityMainBinding
 import com.google.gson.Gson
@@ -25,6 +27,11 @@ class MainActivity : AppCompatActivity() {
         navController = navHostFragment.navController
         // Make sure actions in the ActionBar get propagated to the NavController
         setupActionBarWithNavController(navController)
+        binding.fab.setImageResource(R.drawable.ic_baseline_add_24)
+        binding.fab.setOnClickListener{view->
+            val action = LocationListFragmentDirections.actionLocationListFragmentToNewLocationFragment()
+            navController.navigate(action)
+        }
     }
     override fun onSupportNavigateUp(): Boolean {
         return navController.navigateUp() || super.onSupportNavigateUp()

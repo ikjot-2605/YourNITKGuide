@@ -1,6 +1,7 @@
-import android.location.Location
+
 import androidx.lifecycle.LiveData
 import androidx.room.*
+import com.example.yournitkguide.Location
 
 @Dao
 interface LocationDao{

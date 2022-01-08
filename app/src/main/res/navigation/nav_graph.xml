@@ -3,26 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
-
+    app:startDestination="@id/locationListFragment">
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.example.yournitkguide.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
-
+        android:id="@+id/locationListFragment"
+        android:name="com.example.yournitkguide.LocationListFragment"
+        android:label="LocationListFragment"
+        tools:layout="@layout/location_list_fragment">
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_locationListFragment_to_locationDescriptionFragment"
+            app:destination="@id/locationDescriptionFragment" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.example.yournitkguide.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
-
+        android:id="@+id/locationDescriptionFragment"
+        android:name="com.example.yournitkguide.LocationDescriptionFragment"
+        android:label="LocationDescriptionFragment"
+        tools:layout="@layout/location_description_fragment">
+        <argument
+            android:name="location"
+            app:argType="com.example.yournitkguide.Location" />
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_locationDescriptionFragment_to_locationListFragment"
+            app:destination="@id/locationListFragment" />
     </fragment>
 </navigation>

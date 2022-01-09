@@ -14,7 +14,7 @@ class LocationViewModel(application: Application):AndroidViewModel(application) 
 
     val readAllData : LiveData<List<Location>>
 
-    private val repository: LocationRepository
+    val repository: LocationRepository
 
     init{
         val locationDao = LocationDatabase.getDatabase(application).locationDao()

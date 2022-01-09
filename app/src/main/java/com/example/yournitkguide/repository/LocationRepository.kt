@@ -1,11 +1,13 @@
 package com.example.yournitkguide.repository
 
-import LocationDao
+import com.example.yournitkguide.data.LocationDao
 import androidx.lifecycle.LiveData
 import com.example.yournitkguide.Location
 
-class LocationRepository(private val locationDao:LocationDao) {
+class LocationRepository(private val locationDao: LocationDao) {
     val readAllData : LiveData<List<Location>> = locationDao.readAllData()
+
+    val isDBEmpty: Int = locationDao.isDBEmpty()
 
     suspend fun addLocation(location: Location){
         locationDao.addLocation(location)

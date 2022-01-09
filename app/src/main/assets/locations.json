@@ -66,7 +66,7 @@
   {
     "id": 9,
     "name": "Basketball court",
-    "description": "",
+    "description": "Basketball Courts (equipped with floodlight) (2) surrounded by pavilion.",
     "latitude": 13.01102915,
     "longitude": 74.79708182,
     "imgUrl": ""
@@ -74,7 +74,7 @@
   {
     "id": 10,
     "name": "Swimming Pool",
-    "description": "",
+    "description": "International Standard Swimming Pool (1) with diving arena.",
     "latitude": 13.01120686,
     "longitude": 74.79775237,
     "imgUrl": ""
@@ -251,16 +251,16 @@
     "id": 32,
     "name": "Guest Houses",
     "description": "The Institute has four guest houses, J C Bose Guest House, Vikram Sarabhai Guest House, Homi J Bhaba Guest House, International Hostel\nThey are located on the western side of the National Highway (NH66), near the beach (Arabian Sea)",
-    "latitude": "",
-    "longitude": "",
+    "latitude": 13.01439184,
+    "longitude": 74.78802482,
     "imgUrl": "https://www.nitk.ac.in/design-system/facilities/gh.jpeg"
   },
   {
     "id": 33,
     "name": "Career Development Centre",
     "description": "Placement and Training",
-    "latitude": "",
-    "longitude": "",
+    "latitude": 13.010747,
+    "longitude": 74.794433,
     "imgUrl": "https://cdn.iris.nitk.ac.in/placement/images/fulls/02.jpg"
   }
 ]

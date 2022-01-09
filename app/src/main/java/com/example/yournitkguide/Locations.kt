@@ -10,6 +10,6 @@ import kotlinx.parcelize.Parcelize
 @Entity(tableName = "location_table")
 @Parcelize
 data class Location(
-    @PrimaryKey
-    val id:Int, val name:String, val description: String, val latitude:Double, val longitude:Double, val imgUrl:String
+    @PrimaryKey(autoGenerate = true)
+    val id:Int = 0, val name:String, val description: String, val latitude:Double, val longitude:Double, val imgUrl:String
 ): Parcelable

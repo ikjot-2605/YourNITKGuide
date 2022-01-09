@@ -1,6 +1,6 @@
 package com.example.kotlinroomdatabase.data
 
-import LocationDao
+import com.example.yournitkguide.data.LocationDao
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
@@ -11,7 +11,7 @@ import com.example.yournitkguide.Location
 
 @Database(
     entities = [Location::class],
-    version = 1,                // <- Database version
+    version = 2,                // <- Database version
     exportSchema = true
 )
 abstract class LocationDatabase: RoomDatabase() { // <- Add 'abstract' keyword and extends RoomDatabase
@@ -32,7 +32,7 @@ abstract class LocationDatabase: RoomDatabase() { // <- Add 'abstract' keyword a
                     context.applicationContext,
                     LocationDatabase::class.java,
                     "user_database"
-                ).build()
+                ).allowMainThreadQueries().build()
                 INSTANCE = instance
                 return instance
             }

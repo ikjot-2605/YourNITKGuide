@@ -14,12 +14,15 @@ class LocationViewModel(application: Application):AndroidViewModel(application) 
 
     val readAllData : LiveData<List<Location>>
 
+    val isDBEmpty:Int
+
     val repository: LocationRepository
 
     init{
         val locationDao = LocationDatabase.getDatabase(application).locationDao()
         repository = LocationRepository(locationDao)
         readAllData = repository.readAllData
+        isDBEmpty = repository.isDBEmpty
     }
 
     fun addLocation(location: Location){

@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
@@ -27,6 +28,7 @@ class NewLocationFragment : Fragment() {
     ): View? {
         _binding = NewLocationFragmentBinding.inflate(inflater,container,false)
         mLocationViewModel= ViewModelProvider(this).get(LocationViewModel::class.java)
+        (activity as AppCompatActivity).supportActionBar?.title = "Add Custom Location"
         binding.button.setOnClickListener { insertLocationToDatabase() }
         return binding.root
     }

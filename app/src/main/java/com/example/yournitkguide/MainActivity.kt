@@ -1,6 +1,7 @@
 package com.example.yournitkguide
 
 import android.os.Bundle
+import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
@@ -27,6 +28,8 @@ class MainActivity : AppCompatActivity() {
         navController = navHostFragment.navController
         // Make sure actions in the ActionBar get propagated to the NavController
         setupActionBarWithNavController(navController)
+        supportActionBar?.title = "Locations of NITK"
+        supportActionBar?.elevation = 7F
         binding.fab.setImageResource(R.drawable.ic_baseline_add_24)
         binding.fab.setOnClickListener{view->
             val action = LocationListFragmentDirections.actionLocationListFragmentToNewLocationFragment()
@@ -36,4 +39,10 @@ class MainActivity : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         return navController.navigateUp() || super.onSupportNavigateUp()
     }
+
+    override fun onResume() {
+        super.onResume()
+        supportActionBar?.title = "Locations of NITK"
+    }
+
 }

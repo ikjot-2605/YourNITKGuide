@@ -1,21 +1,27 @@
 package com.example.yournitkguide
 
+import android.annotation.SuppressLint
+import android.app.ActionBar
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.resource.bitmap.CenterCrop
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.example.yournitkguide.databinding.LocationDescriptionFragmentBinding
-import com.example.yournitkguide.databinding.LocationListFragmentBinding
-import com.google.gson.Gson
-import com.google.gson.GsonBuilder
 
 class LocationDescriptionFragment : Fragment() {
     private lateinit var location: Location
     private lateinit var binding: LocationDescriptionFragmentBinding
+
+    override fun onResume() {
+        super.onResume()
+        (getActivity()!! as MainActivity).supportActionBar!!.setTitle(location.name)
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,6 +31,7 @@ class LocationDescriptionFragment : Fragment() {
 
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -35,8 +42,24 @@ class LocationDescriptionFragment : Fragment() {
             R.layout.location_description_fragment, container, false)
         binding.desctxt.text = location.description
         binding.titletxt.text = location.name
-        if(location.imgUrl.length>0)Glide.with(this).load(location.imgUrl).into(binding.imageView)
-        else Glide.with(this).load("https://images.collegedunia.com/public/college_data/images/appImage/15038956701443098931NITSurathkalNew.jpg?mode=stretch").into(binding.imageView)
+        binding.locationLabel.text = "  "+location.latitude.toString()+", "+location.longitude.toString()
+        if(location.imgUrl.isNotEmpty())
+            Glide
+                .with(this)
+                .load(location.imgUrl)
+                .transform(CenterCrop())
+                .transform(RoundedCorners(36))
+                .into(binding.imageView)
+        else
+            Glide
+                .with(this)
+                .load("https://images.collegedunia.com/public/college_data/images/appImage/15038956701443098931NITSurathkalNew.jpg?mode=stretch")
+                .transform(CenterCrop())
+                .transform(RoundedCorners(36))
+                .into(binding.imageView)
+
         return binding.root
     }
+
+
 }

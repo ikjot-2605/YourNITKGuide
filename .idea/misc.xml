@@ -12,6 +12,11 @@
         <entry key="..\:/Users/ikjot/AndroidStudioProjects/YourNITKGuide/app/src/main/res/layout/location_list_item.xml" value="0.5455950540958269" />
         <entry key="..\:/Users/ikjot/AndroidStudioProjects/YourNITKGuide/app/src/main/res/layout/new_location_page.xml" value="0.18659420289855072" />
         <entry key="..\:/Users/ikjot/AndroidStudioProjects/YourNITKGuide/app/src/main/res/layout/single_location_page.xml" value="0.192481884057971" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.34739583333333335" />
+        <entry key="app/src/main/res/layout/location_description_fragment.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/location_list_fragment.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/location_list_item.xml" value="0.25226449275362317" />
+        <entry key="app/src/main/res/layout/new_location_fragment.xml" value="0.1921875" />
       </map>
     </option>
   </component>

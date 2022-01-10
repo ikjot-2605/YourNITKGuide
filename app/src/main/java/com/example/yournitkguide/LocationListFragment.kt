@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
@@ -25,7 +26,7 @@ class LocationListFragment : Fragment() {
 
     override fun onResume() {
         super.onResume()
-        (getActivity()!! as MainActivity).supportActionBar!!.setTitle("List of locations")
+        (getActivity()!! as MainActivity).supportActionBar!!.setTitle("Locations at NITK")
     }
 
     override fun onCreateView(

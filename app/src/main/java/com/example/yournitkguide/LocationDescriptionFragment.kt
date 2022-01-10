@@ -1,9 +1,11 @@
 package com.example.yournitkguide
 
+import android.app.ActionBar
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
@@ -52,6 +54,9 @@ class LocationDescriptionFragment : Fragment() {
                 .transform(CenterCrop())
                 .transform(RoundedCorners(36))
                 .into(binding.imageView)
+
         return binding.root
     }
+
+
 }

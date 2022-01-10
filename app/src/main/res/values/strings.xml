@@ -15,4 +15,5 @@
     <string name="add_location_description">Description</string>
     <string name="add_location_latitude">Latitude</string>
     <string name="add_location_longitude">Longitude</string>
+    <string name="location">Location</string>
 </resources>

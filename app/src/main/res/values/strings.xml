@@ -11,4 +11,8 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="submit">Submit</string>
     <string name="add_location">Add Location</string>
+    <string name="add_location_name">Name</string>
+    <string name="add_location_description">Description</string>
+    <string name="add_location_latitude">Latitude</string>
+    <string name="add_location_longitude">Longitude</string>
 </resources>

@@ -1,5 +1,6 @@
 package com.example.yournitkguide
 
+import android.annotation.SuppressLint
 import android.app.ActionBar
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -30,6 +31,7 @@ class LocationDescriptionFragment : Fragment() {
 
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -40,6 +42,7 @@ class LocationDescriptionFragment : Fragment() {
             R.layout.location_description_fragment, container, false)
         binding.desctxt.text = location.description
         binding.titletxt.text = location.name
+        binding.locationLabel.text = "  "+location.latitude.toString()+", "+location.longitude.toString()
         if(location.imgUrl.isNotEmpty())
             Glide
                 .with(this)

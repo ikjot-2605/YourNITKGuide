@@ -37,7 +37,7 @@ class LocationListFragment : Fragment() {
         _binding = LocationListFragmentBinding.inflate(inflater, container,false)
         var locationList : List<Location> = mutableListOf<Location>(Location(name = "name",description = "description", latitude = 1.1, longitude = 2.2, imgUrl = "https://images.collegedunia.com/public/college_data/images/appImage/15038956701443098931NITSurathkalNew.jpg?mode=stretch"))
         mLocationViewModel = ViewModelProvider(this)[LocationViewModel::class.java]
-        if(mLocationViewModel.isDBEmpty==0){
+        if(mLocationViewModel.isDBEmpty == 0){
             val str : String? = context?.assets?.open("locations.json")?.bufferedReader()?.use { it.readText() }
             val list:List<Location> = GsonBuilder().create().fromJson(context?.assets?.open("locations.json")?.bufferedReader().use{ it?.readText()!! },
                 Array<Location>::class.java).toList()
@@ -52,13 +52,8 @@ class LocationListFragment : Fragment() {
             Log.d("TAG", location.toString())
             locationList = location
             val adapter = LocationListAdapter(context = this, arrayList = locationList)
-            val listView = binding.locationListView
-            listView.setOnItemClickListener { parent, view, position, id ->
-                val action = LocationListFragmentDirections.actionLocationListFragmentToLocationDescriptionFragment(locationList[position])
-                findNavController().navigate(action)
-
-            }
-            listView.adapter = adapter
+            val recyclerView = binding.recyclerView
+            recyclerView.adapter = adapter
         })
         Log.d("TAG", locationList.toString())
 
